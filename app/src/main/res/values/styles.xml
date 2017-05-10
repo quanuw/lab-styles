@@ -6,13 +6,13 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Material">
         <!-- Customize your theme here. -->
-        <item name="colorPrimaryDark">#b7a57a</item>
-        <item name="colorPrimary">#4b2e83</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     
     <style name="TextStyle" >
-        <item name="android:textColor">?android:colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textSize">22sp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -23,7 +23,7 @@
     </style>
     
     <style name="Gold" parent="Label">
-        <item name="android:background">?android:colorPrimaryDark</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
     </style>
 
     <style name="ButtonStyle" parent="@android:style/MediaButton">

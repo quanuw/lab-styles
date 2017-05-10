@@ -18,7 +18,7 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/ischool_symbol_only_black"
         android:contentDescription="@string/logoDescription"
-        android:tint="?android:colorPrimary"
+        android:tint="@color/colorPrimary"
         />
 
     <RelativeLayout
